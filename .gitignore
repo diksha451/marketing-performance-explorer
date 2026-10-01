@@ -1,0 +1,14 @@
+# Virtual environment and Python cache
+.venv/
+__pycache__/
+*.pyc
+
+# Never upload your data (it can contain customer IDs)
+*.csv
+*.xlsx
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
